@@ -22,4 +22,11 @@ Add the library in the config/autoload.php file and then use this in your contro
 $this->googleplus->login();
 ```
 
+### Dependencies
+This API is used in combination with [Ion Auth]
+
+### Explanation
+In the libraries/Googleplus.php file is a small explanation fo how it works
+
    [Google Developers Console]: <https://console.developers.google.com/start>
+   [Ion Auth]: <https://github.com/benedmunds/CodeIgniter-Ion-Auth>
